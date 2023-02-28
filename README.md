@@ -1,2 +1,2 @@
 # Personal Website
-### Personal Portfolio Website Hosted Through GitHub Pages, [albertchxn.github.io](albertchxn.github.io)
+### Personal Portfolio Website Hosted Through GitHub Pages, [https://albertchxn.github.io](https://albertchxn.github.io)
