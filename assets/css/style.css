@@ -15,13 +15,12 @@
   }
 }
 
-<style>
-  .timeline-header {  /* New CSS rule for timeline headers */
-    font-size: 0.5rem;  /* Adjust font size as desired */
-    font-weight: bold;  /* Add boldness to headers */
-    margin-bottom: 5px;  /* Add some margin below headers */
+@media only screen and (max-width: 767px) {
+  /* Mobile device styles for headers within timeline items */
+  .timeline-item h2 {
+    font-size: 1rem;  /* Adjust as desired */
   }
-</style>
+}
 
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Poppins");
