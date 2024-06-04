@@ -11,9 +11,18 @@
 * Mobile device styles for headers */
 @media only screen and (max-width: 767px) {
   h1, h2, h3 {
-    font-size: 0.2rem;  /* Adjust as desired */
+    font-size: 0.5rem;  /* Adjust as desired */
   }
 }
+
+<style>
+  .timeline-header {  /* New CSS rule for timeline headers */
+    font-size: 0.5rem;  /* Adjust font size as desired */
+    font-weight: bold;  /* Add boldness to headers */
+    margin-bottom: 5px;  /* Add some margin below headers */
+  }
+</style>
+
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 .cls-1 { fill: #ffc541; }
