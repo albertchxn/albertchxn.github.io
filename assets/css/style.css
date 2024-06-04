@@ -1,13 +1,16 @@
-/* styles for mobile devices */
-@media only screen and (max-width: 767px) {
-  body {
-    /* Remove existing styles */
-    width: auto;
-    margin: 0;
-    padding: 0;  /* Optional: Remove padding if needed */
-  }
+.main-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Two columns on larger screens, adjust as needed */
+  grid-gap: 10px; /* Gap between content sections */
+  ... (other styles)
 }
 
+nav {
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Stack items vertically on mobile */
+  align-items: center; /* Center items horizontally */
+  ... (other styles)
+}
 
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Poppins");
